@@ -8,7 +8,7 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <groupId>com.github.beyondlov1</groupId>
+    <groupId>io.github.beyondlov1</groupId>
     <artifactId>mybatis-plus-batch-spring-boot-starter</artifactId>
     <version>1.0</version>
 
@@ -25,7 +25,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.beyondlov1</groupId>
+            <groupId>io.github.beyondlov1</groupId>
             <artifactId>mybatis-plus-batch-support</artifactId>
             <version>1.0</version>
         </dependency>
