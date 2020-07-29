@@ -2,7 +2,7 @@
 mybatis-plus 批量插入/更新功能增强
 
 # 使用方法
-1. pom.xml 引入依赖:
+1. pom.xml 引入依赖(需自己引用mybatis-plus-spring-boot-starter):
 ```xml
  <dependency>
    <groupId>io.github.beyondlov1</groupId>
