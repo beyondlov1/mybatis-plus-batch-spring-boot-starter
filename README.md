@@ -5,7 +5,7 @@ mybatis-plus 批量插入/更新功能增强
 1. pom.xml 引入依赖:
 ```xml
  <dependency>
-   <groupId>com.beyond</groupId>
+   <groupId>io.github.beyondlov1</groupId>
    <artifactId>mybatis-plus-batch-spring-boot-starter</artifactId>
    <version>1.0</version>
 </dependency>
