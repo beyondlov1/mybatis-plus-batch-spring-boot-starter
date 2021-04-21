@@ -34,7 +34,7 @@
         <dependency>
             <groupId>io.github.beyondlov1</groupId>
             <artifactId>mybatis-plus-batch-support</artifactId>
-            <version>1.1</version>
+            <version>1.2</version>
         </dependency>
     </dependencies>
 

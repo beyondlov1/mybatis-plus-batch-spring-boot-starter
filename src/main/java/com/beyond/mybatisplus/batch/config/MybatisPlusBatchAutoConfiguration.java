@@ -2,6 +2,7 @@ package com.beyond.mybatisplus.batch.config;
 
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.beyond.mybatisplus.batch.sqlinject.CustomerSqlInjector;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -11,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class MybatisPlusBatchAutoConfiguration {
+    @ConditionalOnMissingBean(ISqlInjector.class)
     @Bean
     public ISqlInjector sqlInjector(){
         return new CustomerSqlInjector();
