@@ -7,7 +7,7 @@
     <name>mybatis-plus-batch-spring-boot-starter</name>
     <groupId>io.github.beyondlov1</groupId>
     <artifactId>mybatis-plus-batch-spring-boot-starter</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <description>spring boot starter for batch sql support for mybatis plus</description>
     <url>https://github.com/beyondlov1/mybatis-plus-batch-spring-boot-starter</url>
 
