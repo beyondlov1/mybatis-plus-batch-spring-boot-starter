@@ -2,12 +2,13 @@
 mybatis-plus 批量插入/更新功能增强
 
 # 使用方法
-1. pom.xml 引入依赖(需自己引用mybatis-plus-spring-boot-starter):
+1. pom.xml 引入依赖(需自己引用mybatis-plus-spring-boot-starter):  
+https://mvnrepository.com/artifact/io.github.beyondlov1/mybatis-plus-batch-spring-boot-starter
 ```xml
  <dependency>
    <groupId>io.github.beyondlov1</groupId>
    <artifactId>mybatis-plus-batch-spring-boot-starter</artifactId>
-   <version>1.0</version>
+   <version>1.2</version>
 </dependency>
 ```
 2. Mapper 继承 CustomBaseMapper
